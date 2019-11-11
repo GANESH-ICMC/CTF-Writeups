@@ -7,6 +7,7 @@
     + [Future Message 2](#future-message-2)
     + [Random Vault (EN)](#random-vault)
     + [Roots Before Branches](#roots-before-branches)
+  * [Web](#web)
     + [Baby Recruiter](#baby-recruiter)
   * [Bonus](#bonus)
     + [The last Resort](#the-last-resort)
@@ -793,6 +794,7 @@ Portanto:
 
 Rodando no servidor resulta na flag.
 
+## Web
 
 ### Baby Recruiter
 ```
