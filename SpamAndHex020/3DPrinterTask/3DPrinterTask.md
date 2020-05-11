@@ -20,9 +20,9 @@ https://www.1001fonts.com/freaks-of-nature-font.html
 
 ![Font](Images/font.png)
 
-We counted how many traces were needed to draw each letter/number (only the outline), and got the table below.
+We counted how many lines were needed to draw each letter/number (only the outline), and got the table below.
 ```
-Letter - Number of Traces
+Letter - Number of lines
 I - 4
 L - 6
 1 - 8
@@ -59,10 +59,10 @@ W - 20
 Z - 20
 X - 36
 ```
-So we openened the audio on Audacity, and using the spectogram view, we can clearly see the traces.
+So we openened the audio on Audacity, and using the spectogram view, we can clearly see the lines.
 ![Spectogram of the audio](Images/AudacityFullAudioEdited.jpg)
 
-On (1) we have a pattern that repeats a lot in the audio, and when comparing it to the video, we can see that it is the sound of the printer moving to print another letter, so the space between them (2) shows the audio of it printing a letter, and the sound changes a little bit when the machine changes it's direction, so que can count how many traces the letter has (and the size of them). Than on (3) we have the pattern again, so we know it finished printing the letter. 
+On (1) we have a pattern that repeats a lot in the audio, and when comparing it to the video, we can see that it is the sound of the printer moving to print another letter, so the space between them (2) shows the audio of it printing a letter, and the sound changes a little bit when the machine changes it's direction, so que can count how many lines the letter has (and the size of them). Than on (3) we have the pattern again, so we know it finished printing the letter. 
 
 PS: The printer starts drawing on the bottom left of the letter.
 
@@ -83,57 +83,57 @@ We can use their spectogram to help identifying others letters.
 ### {
 ![{](Images/Letters/oBracket.jpg)
 
-This one has 16 traces, but the size of them don't match any letter from that font, so i assumed it was the '{', because the flag may be in the format SAF{...}
+This one has 16 lines, but the size of them don't match any letter from that font, so i assumed it was the '{', because the flag may be in the format SAF{...}
 
 ### A
 ![A](Images/Letters/A(2).jpg)
 
-This one has 12 traces, and is very similar to the 'A' we got.
+This one has 12 lines, and is very similar to the 'A' we got.
 
 ### I
 ![I](Images/Letters/I.jpg)
 
-This one has only 4 traces, and by the size of them, its a rectangle, so has to be an 'I'.
+This one has only 4 lines, and by the size of them, its a rectangle, so has to be an 'I'.
 
 ### R
 ![R](Images/Letters/R.jpg)
 
-This one has 14 traces, and we can see that the last one is a big one, so it matches the outline of the 'R'.
+This one has 14 lines, and we can see that the last one is a big one, so it matches the outline of the 'R'.
 
 ### G
 ![G](Images/Letters/G.jpg)
 
-This one has 16 traces, but it didn't fit well in any of the letters with 16 traces of the font, but we thought you may be able to draw a 'G' with 16 traces (intead of 18), and the size of them matches the outline of a 'G'. 
+This one has 16 lines, but it didn't fit well in any of the letters with 16 lines of the font, but we thought you may be able to draw a 'G' with 16 lines (intead of 18), and the size of them matches the outline of a 'G'. 
 
 ### A
 ![A](Images/Letters/A(3).jpg)
 
-This one has 12 traces and is similar to the others 'A's.
+This one has 12 lines and is similar to the others 'A's.
 
 ### PP
 ![PP](Images/Letters/PP.jpg)
 
-Here we have two letters that are very similar, and have 10 traces, and the size of them matches the 'P'.
+Here we have two letters that are very similar, and have 10 lines, and the size of them matches the 'P'.
 
 ### E
 ![E](Images/Letters/E.jpg)
 
-This one has 12 traces, and their sizes matches the outline of the 'E'.
+This one has 12 lines, and their sizes matches the outline of the 'E'.
 
 ### D
 ![D](Images/Letters/D.jpg)
 
-This one has 8 traces, and their sizes mathches the outline of the 'D'.
+This one has 8 lines, and their sizes mathches the outline of the 'D'.
 
 ### 2
 ![2](Images/Letters/2.jpg)
 
-This one has 18 traces, and their sizes did not match any of the letters, so we compared it to the outline of the numbers, and it matches the '2'. 
+This one has 18 lines, and their sizes did not match any of the letters, so we compared it to the outline of the numbers, and it matches the '2'. 
 
 ### }
 ![}](Images/Letters/cBracket.jpg)
 
-We assumed tha flag had the format SAF{...}, and this one has the same amount of traces than the one we assumed to be an '{'.
+We assumed tha flag had the format SAF{...}, and this one has the same amount of lines than the one we assumed to be an '{'.
 
 ```
 SAF{AIRGAPPED2}
