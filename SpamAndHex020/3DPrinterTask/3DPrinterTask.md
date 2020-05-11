@@ -1,4 +1,4 @@
-## The 3D Printer Task
+# The 3D Printer Task
 
 ```
 We have 3D printed a great object, and wanted to show you... unfortunately we only have the video file of the print... and it's corrupted.
@@ -66,6 +66,14 @@ On (1) we have a pattern that repeats a lot in the audio, and when comparing it 
 
 PS: The printer starts drawing on the bottom left of the letter.
 
+## Example
+Here is the spectogram of the first A and the outline that it printed, i colored the lines for better visualization.
+
+PS: The image on the right is zoomed in.
+
+![ColoredExample](Images/exampleColored.jpg)
+
+## Letters
 ### SAF
 On the video we can see that the first three letters are SAF.
 
