@@ -113,7 +113,7 @@ This one has 12 traces and is similar to the others 'A's.
 ### PP
 ![PP](Images/Letters/PP.jpg)
 
-Here we have to letters that are very similar, and have 10 traces, and the size of them matches the 'P'.
+Here we have two letters that are very similar, and have 10 traces, and the size of them matches the 'P'.
 
 ### E
 ![E](Images/Letters/E.jpg)
